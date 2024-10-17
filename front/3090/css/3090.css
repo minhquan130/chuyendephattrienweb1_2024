@@ -1,0 +1,37 @@
+body {
+  font-family: 'Hind', sans-serif;
+}
+.type-3090 .col-aic {
+  display: flex;
+  align-items: center;
+}
+.type-3090 .col-aic img.img-background {
+  width: 100%;
+}
+.type-3090 .col-aic .list-row {
+  display: grid;
+  gap: 30px;
+}
+.type-3090 .col-aic .list-row .row-content {
+  display: flex;
+}
+.type-3090 .col-aic .list-row .row-content span.icon-content {
+  font-size: 32px;
+  color: #00aeef;
+  margin-right: 15px;
+}
+.type-3090 .col-aic .list-row .row-content div.wrapper-content p.main-content {
+  font-size: 18px;
+  color: #848484;
+  font-weight: 500;
+}
+.type-3090 .col-aic .title-h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.type-3090 .col-aic .subtitle-h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
