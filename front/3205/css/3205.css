@@ -1,0 +1,110 @@
+.type-3205 {
+  padding-bottom: 100px;
+}
+.type-3205 .image img {
+  height: 118px;
+}
+.type-3205 h2.tilte {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+.type-3205 .wrapper-content {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.type-3205 .wrapper-content h3.tilte {
+  font-size: 32px;
+}
+.type-3205 .wrapper-content .content {
+  color: #7e7e7e;
+}
+.type-3205 .list-banner .banner-item:hover .banner {
+  background-size: 120%;
+}
+.type-3205 .list-banner .banner-item:hover .banner::before {
+  transform: translate(650px,650px) rotate(-45deg);
+}
+.type-3205 .list-banner .banner-item:hover .banner::after {
+  background: rgba(0,0,0,0.3);
+}
+.type-3205 .list-banner .banner-item .banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  position: relative;
+  height: 320px;
+  padding: 30px;
+  transition: .5s;
+  overflow: hidden;
+}
+.type-3205 .list-banner .banner-item .banner::before {
+  content: '';
+  width: 1000px;
+  height: 150px;
+  background: rgba(255,255,255,0.5);
+  position: absolute;
+  transform: translate(0,0) rotate(-45deg);
+  transform-origin: center;
+  top: -75px;
+  left: -650px;
+  transition: .5s;
+}
+.type-3205 .list-banner .banner-item .banner::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: .5s;
+}
+.type-3205 .list-banner .banner-item .banner-left {
+  background-image: url(../images/banner-42.jpg);
+  color: #fff;
+}
+.type-3205 .list-banner .banner-item .banner-left .tilte-banner {
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.type-3205 .list-banner .banner-item .banner-left .content-banner {
+  position: relative;
+  z-index: 2;
+  font-size: 32px;
+  padding: 20px 0;
+}
+.type-3205 .list-banner .banner-item .banner-right {
+  background-image: url(../images/banner-43.jpg);
+}
+.type-3205 .list-banner .banner-item .banner-right .tilte-banner {
+  font-size: 32px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+.type-3205 .list-banner .banner-item .banner-right .content-banner {
+  font-size: 18px;
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+.type-3205 .list-banner .banner-item .banner button {
+  color: #000;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+  position: relative;
+  z-index: 2;
+}
+.type-3205 .list-banner .banner-item .banner button:hover {
+  background: #000;
+  color: #fff;
+}
